@@ -1,0 +1,142 @@
+.heroImg{
+    background-color: var(--color-primary);
+    padding: 60px 0 110px;
+}
+
+.header{
+    margin-bottom: 60px;
+}
+
+.navbar ul li{
+    display: inline-block;
+margin: 0 18px;
+
+}
+
+.navbar ul li a {
+    color: var(--color-sec);
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 22px;
+    height: 47px;
+    display: inline-block;
+    line-height: 47px;
+    padding: 0 18px;
+    transition: all .4s ease-in-out;
+}
+
+.navbar ul li a:is(:hover, :focus, :active){
+    background-color: var(--color-sec);
+    color: var(--color-primary);
+}
+
+.inspiration{
+    margin-top: 70px;
+}
+
+.brand-icons li {
+    display: inline-block;
+}
+
+.brand-icons li:not(:last-child) {
+    margin-right: 38px;
+}
+
+.brand-icons li i {
+    font-size: 40px;
+    color: var(--color-sec);
+    transition: all .4s ease-in-out;
+}
+
+.brand-icons li:hover i{
+    transform: scale(1.4) rotate(360deg);
+}
+
+/* feature section css */
+
+.feature {
+    padding: 120px 0 75px;
+}
+
+.thumbInfo{
+    margin-bottom: 90px;
+}
+
+.thumbnail i {
+    font-size: 40px;
+}
+
+
+/* footer section css */
+
+.footer{
+    padding: 90px 0 140px;
+    background-color: var(--color-sec);
+}
+
+.footer .pri-heading{
+    color: var(--color-primary);
+}
+
+.footer .sec-heading{
+    color: var(--text-ter);
+}
+
+.updateEmail {
+    width: calc(100% - 151px);
+    border: 0px;
+    outline: none;
+    padding: 0 0 0 20px;
+}
+
+.updateEmail::placeholder {
+    color: var(--text-ter);
+}
+
+.form-group {
+    margin-bottom: 80px;
+}
+
+.updateEmail,
+.emailupdateBtn {
+    height: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.emailupdateBtn {
+    background-color: var(--color-primary);
+    color: var(--color-sec);
+    width: 127px;
+    border: 1px solid var(--color-primary);
+    cursor: pointer;
+    margin-left: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+.footer .brand-icons li i{
+    color: var(--color-primary);
+}
+
+.footerLinks li,
+.footerLinks li a:is(:visited, :link) {
+    color: var(--color-white);
+}
+
+.footerLinks li,
+.footerLinks li a:is(:visited, :link) {
+   text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+

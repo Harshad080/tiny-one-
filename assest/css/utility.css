@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-primary : #fcdb00;
+    --color-sec : #010101;
+    --text-pri :#313841;
+    --text-sec :#555;
+    --text-ter:#898989;
+    --color-white : #fff;
+    --color-dark : #000;
+    --color-denger : #ff0000;
+}
+
+.body{
+    font-family: "Roboto", sans-serif;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.row{
+    clear: both;
+    display: table;
+    width: 100%;
+    /* border: 2px solid blueviolet; */
+}
+
+.row:not(:last-child){
+    margin-bottom: 90px;
+}
+
+[class ^= "col-"]{
+    float: left;
+    padding: 0 15px;
+}
+
+/* .col-3,
+.col-5, 
+.col-10 {
+    float: left;
+    padding: 0 15px;
+} */
+
+.col-3{
+    width: calc(100% * 3 / 12);
+}
+
+.col-4 {
+    width: calc(100% * 4 / 12);
+}
+
+.col-5{
+    width: calc(100% * 5 / 12);
+}
+
+.col-9{
+    width: calc(100% * 9 / 12);
+    /* border: 2px solid red; */
+}
+.col-10{
+    width: calc(100% * 10 / 12);
+}
+
+.offset-1{
+    margin-left: calc(100% * 1 / 12);
+}
+.offset-2{
+    margin-left: calc(100% * 2 / 12);
+}
+
+/* typography css */
+
+.pri-heading{
+    color: var(--color-sec);
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.sec-heading{
+    font-size: 20px;
+    font-weight: normal;
+    color: var(--text-pri);
+    margin-bottom: 24px;
+}
+
+.para {
+    color: var(--text-sec);
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.thumbnail h3{
+    color: var(--color-sec);
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.thumbnail p{
+    color: var(--text-ter);
+    font-size: 16px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-lowercase{
+    text-transform: lowercase !important;
+}
+
+.px-20{
+    padding: 0 20px;
+}
+
+.mb-135{
+    margin-bottom: 135px;
+}
